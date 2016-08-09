@@ -1,0 +1,9 @@
+{
+	"name": "best-list-box",
+	"description": "Listbox Extension",
+	"icon": "list",
+	"type": "visualization",
+	"version": 2,
+	"preview": "listbox",
+	"author": ""
+}
