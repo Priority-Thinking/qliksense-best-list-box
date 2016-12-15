@@ -8,9 +8,28 @@ This project contains only three files. Open your Qlik Sense deployment's dev-hu
 
 https://www.youtube.com/watch?v=MyTQ7Lu0yFI
 
-## Features and How to Use Them
+## Features
 
-Coming Soon...
+#### Sort Criteria
+Sort list values by Logical State, Numeric Value, Alphabetical Order, Load Order, and Expression
+
+#### Highlight Color
+Color of list item when selected as string like "RGB(XXX,XXX,XXX)"
+
+#### Font Size
+List item font size in pixels (which are converted to em's to account for page sizes a little bit)
+
+#### Text Color
+Inserted as HTML color attribute for item font
+
+#### Label Align
+Align label left, center, or right
+
+#### Always One Selected Value
+Choose whether multiple values can be selected, set a default value, and choose whether to grey out unselected values
+
+#### Disable Charts
+Provide a comma separated list of chart tid's to disable (user won't be able to click on them to select values)
 
 ## Compatibility and Testing
 
