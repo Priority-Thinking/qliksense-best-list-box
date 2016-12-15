@@ -1,9 +1,9 @@
 {
-	"name": "best-list-box",
-	"description": "Listbox Extension",
+	"name": "mashup-listbox",
+	"description": "Mashup Listbox Extension",
 	"icon": "list",
 	"type": "visualization",
-	"version": 2,
+	"version": "1.0.0",
 	"preview": "listbox",
-	"author": ""
+	"author": "Tim Kendrick"
 }

@@ -15,52 +15,23 @@
 	For a copy of the GNU General Public License, see 
 	<http://www.gnu.org/licenses/>.
  */
- 
- /*
-.radio label:before {
-	border-radius: 8px;
-}
 
-.checkbox label {
-	margin-bottom: 10px;
-}
-
-.checkbox label:before {
-    border-radius: 3px;
-}
-
-input[type=radio]:checked + label:before {
-    content: "\2022";
-    color: rgb(80,198,80);
-    font-size: 30px;
-    text-align: center;
-    line-height: 18px;
-}
-
-input[type=checkbox]:checked + label:before {
-	content: "\2713";
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
-	font-size: 15px;
-	color: #f3f3f3;
-	text-align: center;
-    line-height: 15px;
-}
-
-input[type=radio],
-input[type=checkbox] {
-	display: none;	
-}
-*/
 h1 {
 	color: black;
 }
 
-article {
+/*
+div[tid="SingleSelection"] { 
+	border-bottom: 1px solid #9D9D9D 
+}
+*/
 
+article + div + div {
+	position: relative;
 }
 
-header {
-	padding: .3em 0px .3em 1em;
+.sidebar-nav > header {
+	/*padding: .3em 0px .3em 1em;*/
 	border-bottom: black 1px solid;
 }
 
@@ -103,11 +74,11 @@ label:before {
 }
 
 .listbox {
-	position:absolute;
+	padding-top: 5px;
 }
 
 .listbox p {
-	width: 90%;
+	width: 96%;
     display: block;
     text-decoration: none;
     padding: .4em 1em .4em 1em;
@@ -117,29 +88,43 @@ label:before {
 	border: #CCCCCC 1px solid;
 	border-radius: 5px;
 	text-overflow: ellipsis;
+	line-height: 20px;
+	padding-top: 0px;
 }
 
 .listbox p.stateS {
-	background:rgb(147,112,214);
+	background:rgb(147,112,214) !important;
 	box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
 	color:#FFFFFF !important;
 }
 
 .listbox p.stateA {
 	background-image: none;
-	background-color: #ddd;
-	color: #000;
+	/*background-color: #D3D3D3;*/
+	color: white;
 }
 .listbox p.stateA, .listbox p.stateS {
 	/* border-right:#FFFFFF solid 1px; */
 	border-bottom:#CCCCCC 1px solid !important;
 }
-.listbox p.stateO{
+nav .listbox p.stateO{
 	/* border-right:#FFFFFF solid 1px; */
+	color: white !important;
+}
+
+.stateX {
+	color: white;
 }
 
 /* Hover state */
 .listbox p:hover {
-    color: white;
-	background-color: black;
+    box-shadow: 0 0 8px rgba(147,112,214, 0.7);
+	font-weight: bold;
+	border: 1px solid rgb(147,112,214);
+}
+
+p.stateS:hover {
+	color: white !important;
+	border: 1px solid white !important;
+	font-weight: normal !important;
 }
