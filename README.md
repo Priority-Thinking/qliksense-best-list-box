@@ -64,4 +64,4 @@ Tim Kendrick
 
 http://bi-era.com/ (someone's old site where a similar list box extension could once be downloaded)
 https://community.qlik.com/  
-www.prioritythinking.com
+https://www.prioritythinking.com
